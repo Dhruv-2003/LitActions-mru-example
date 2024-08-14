@@ -1,0 +1,35 @@
+{
+  "name": "counter-mru",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "start": "bun run src/index.ts",
+    "test": "mocha --require ts-node/register src/**/*.test.ts"
+  },
+  "dependencies": {
+    "@lit-protocol/auth-helpers": "^6.4.2",
+    "@lit-protocol/constants": "^6.4.2",
+    "@lit-protocol/contracts-sdk": "^6.4.2",
+    "@lit-protocol/lit-node-client": "^6.4.2",
+    "@stackr/sdk": "latest",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "ethers": "6",
+    "express": "^4.19.2",
+    "merkletreejs": "^0.3.11",
+    "siwe": "^2.3.2",
+    "sqlite3": "^5.1.7",
+    "viem": "^2.19.4"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.3.13",
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.19",
+    "@types/mocha": "^10.0.6",
+    "bun-types": "latest",
+    "chai": "^5.1.0"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
